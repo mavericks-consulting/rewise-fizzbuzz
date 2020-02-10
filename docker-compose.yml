@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  app:
+    image: fizzbuzz
+    build: .
+    volumes:
+      - ./:/usr/src/app
+      - bundle_cache:/bundle
+    command: bundle exec rspec --format documentation
+    tty: true
+
+volumes:
+  bundle_cache:
