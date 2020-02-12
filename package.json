@@ -1,0 +1,28 @@
+{
+  "name": "fizzbuzz",
+  "version": "1.0.0",
+  "description": "FizzBuzz",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^25.1.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mavericks-consulting/rewise-fizzbuzz.git"
+  },
+  "keywords": [
+    "fizz",
+    "buzz",
+    "kata"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mavericks-consulting/rewise-fizzbuzz/issues"
+  },
+  "homepage": "https://github.com/mavericks-consulting/rewise-fizzbuzz#readme"
+}
